@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (!renderLicenseSection) {
+  if (renderLicenseSection === "") {
     return ""
   } else if (license === "Apache") {
     return "\n[![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/license/apache-2-0)"
@@ -25,7 +25,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (!renderLicenseSection) {
+  if (renderLicenseSection === "" || renderLicenseSection === "none" || renderLicenseSection === "None") {
     return ""
   } else {
     return `\nThis project uses the ${license} license.`
@@ -50,11 +50,11 @@ https://github.com/${data.username}/${data.title}
 
 ## Description
 
-  The purpose of my app is ${data.functionality}
-  \nThe app is intended for ${data.intention}
-  \nThe reason I created the app is because ${data.creation}
-  \nSome vicotries I experienced include ${data.victories}
-  \nSome challenges I experienced include ${data.challenges}
+  \nThe purpose of my app is to: ${data.functionality}
+  \nThe app is intended for: ${data.intention}
+  \nThe reason I created the app is: ${data.creation}
+  \nSome victories I experienced include: ${data.victories}
+  \nSome challenges I experienced include: ${data.challenges}
   
 ## Table of Contents
 

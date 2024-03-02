@@ -44,11 +44,11 @@ Some challenges I experienced include Getting it to display on the README file
 
 ## Frequently Asked Questions (FAQ)
 
-  N/A
+  
 
 ## Contribution
 
-  N/A
+  
 
 ## Tests
 
