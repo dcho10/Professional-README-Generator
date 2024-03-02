@@ -98,7 +98,7 @@ ${renderLicenseLink(data.license)}
 ${renderLicenseBadge(data.license)}
 
 ## Contact
-\nTo visit my other work, you can find me at:
+\nTo find my other work, you can visit me at:
 \nhttps://github.com/${data.username}
 \nTo contact me, you can contact me at: ${data.email}
 `
