@@ -58,7 +58,7 @@ Some challenges I experienced include: Getting it to display on the README file
 
 ## Contact
 
-To visit my other work, you can find me at:
+To find my other work, you can visit me at:
 
 https://github.com/dcho10
 

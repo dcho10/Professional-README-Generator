@@ -112,4 +112,4 @@ function init() {
 // ==============================================================================================================================================================
 
 // Function call to initialize app
-init();
+init();Open terminal and navigate to the location where you want the folder, run npm init-y to start Node.js and create a package.json file, run npm install inquirer@8.2.4 in order to get the npm, open the package.json file to make sure the package is included in the dependencies, and create index.js file to start using the package.

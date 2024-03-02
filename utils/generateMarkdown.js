@@ -71,6 +71,8 @@ https://github.com/${data.username}/${data.title}
   [Tests](#tests)
 
   [License](#license)
+
+  [Contact](#contact)
     
 ## Installation
 
