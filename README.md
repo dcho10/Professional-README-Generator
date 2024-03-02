@@ -30,6 +30,8 @@ Some challenges I experienced include: Getting it to display on the README file
   [Tests](#tests)
 
   [License](#license)
+
+  [Contact](#contact)
     
 ## Installation
 
@@ -53,8 +55,11 @@ Some challenges I experienced include: Getting it to display on the README file
 
 ## Tests
 
+## License
 
+This project uses the MIT license.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Contact
 
