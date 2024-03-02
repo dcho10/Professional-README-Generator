@@ -51,10 +51,10 @@ https://github.com/${data.username}/${data.title}
 ## Description
 
   The purpose of my app is ${data.functionality}
-  The app is intended for ${data.intention}
-  The reason I created the app is because ${data.creation}
-  Some vicotries I experienced include ${data.victories}
-  Some challenges I experienced include ${data.challenges}
+  \nThe app is intended for ${data.intention}
+  \nThe reason I created the app is because ${data.creation}
+  \nSome vicotries I experienced include ${data.victories}
+  \nSome challenges I experienced include ${data.challenges}
   
 ## Table of Contents
 

@@ -44,7 +44,7 @@ const questions = [
         },
         {
             type: "input",
-            message: "What is your app and what does it do?",
+            message: "What does it do?",
             name: "functionality",
         },
         {
@@ -70,12 +70,12 @@ const questions = [
 
         {
             type: "input",
-            message: "What needs to be installed in order for it to run? What are the steps to each installation? Explain any dependencies as well.",
+            message: "What needs to be installed in order for it to run? What are the steps to each installation?",
             name: "installation",
         },
         {
             type: "input",
-            message: "Please provide step-by-step instructions and examples on how users or contributors can use your project.",
+            message: "Please provide step-by-step instructions and examples on how users can use your project.",
             name: "usage",
         },
         {
@@ -92,6 +92,11 @@ const questions = [
             type: "input",
             message: "Please include any Frequently Asked Questions (FAQ).",
             name: "questions",
+        },
+        {
+            type: "input",
+            message: "How can users contribte to your project?",
+            name: "contribution",
         },
         {
             type: "input",
