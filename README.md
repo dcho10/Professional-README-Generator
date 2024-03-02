@@ -4,15 +4,16 @@ https://github.com/dcho10/Professional-README-Generator
 
 ## Description
 
-  The purpose of my app is Automatically generate a README.md file
   
-The app is intended for Users who would like to automatically create their README file
+The purpose of my app is to: Automatically generate a README.md file
   
-The reason I created the app is because To enhance user experience and provide a README template
+The app is intended for: Users who would like to automatically create their README file
   
-Some vicotries I experienced include Figured out how to get the prompt running
+The reason I created the app is: To enhance user experience and provide a README template
   
-Some challenges I experienced include Getting it to display on the README file
+Some victories I experienced include: Figured out how to get the prompt running
+  
+Some challenges I experienced include: Getting it to display on the README file
   
 ## Table of Contents
 
@@ -52,11 +53,13 @@ Some challenges I experienced include Getting it to display on the README file
 
 ## Tests
 
-## License
 
-This project uses the "" license.
-undefined
+
+
+## Contact
 
 To visit my other work, you can find me at:
-dcho10
+
+https://github.com/dcho10
+
 To contact me, you can contact me at: davidceee10@gmail.com

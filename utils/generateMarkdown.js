@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (renderLicenseSection === "") {
+  if (license === "") {
     return ""
   } else if (license === "Apache") {
     return "\n[![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/license/apache-2-0)"
@@ -25,7 +25,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (renderLicenseSection === "" || renderLicenseSection === "none" || renderLicenseSection === "None") {
+  if (license === "") {
     return ""
   } else {
     return `\nThis project uses the ${license} license.`
@@ -97,9 +97,10 @@ ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 ${renderLicenseBadge(data.license)}
 
-To visit my other work, you can find me at:
-${data.username}
-To contact me, you can contact me at: ${data.email}
+## Contact
+\nTo visit my other work, you can find me at:
+\nhttps://github.com/${data.username}
+\nTo contact me, you can contact me at: ${data.email}
 `
 }
 
